@@ -117,7 +117,7 @@
       fruitImg.alt = `${fruit.name} Blox Fruits`;
       fruitImg.loading = "lazy";
       fruitImg.decoding = "async";
-      fruitImg.src = `./assets/fruits/${imageFile}`;
+      fruitImg.src = `./${imageFile}`;
       fruitImg.onerror = () => {
         fruitImg.remove();
         const fallback = document.createElement("span");
